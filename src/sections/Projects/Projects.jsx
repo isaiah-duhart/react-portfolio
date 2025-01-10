@@ -2,6 +2,7 @@ import styles from "./ProjectsStyles.module.css";
 import streamwest from "../../assets/viberr.png";
 import nbaLogo from '../../assets/nba-logo.png'
 import messageLogo from '../../assets/green-messenger.png'
+import flavourHubLogo from '../../assets/chef.png'
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -14,6 +15,12 @@ function Projects() {
           link="https://github.com/isaiah-duhart/zMessage"
           h3="zMessage"
           p="Instant Messaging Application"
+        />
+        <ProjectCard
+          src={flavourHubLogo}
+          link="https://github.com/isaiah-duhart/flavour-hub"
+          h3="Flavour Hub"
+          p="Recipe Sharing Website"
         />
         <ProjectCard
           src={streamwest}
