@@ -1,5 +1,5 @@
 import styles from "./ProjectsStyles.module.css";
-import streamwest from "../../assets/viberr.png";
+import ticTacToeLogo from "../../assets/tic-tac-toe.png";
 import nbaLogo from '../../assets/nba-logo.png'
 import messageLogo from '../../assets/green-messenger.png'
 import flavourHubLogo from '../../assets/chef.png'
@@ -12,9 +12,9 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={messageLogo}
-          link="https://github.com/isaiah-duhart/zMessage"
+          link="https://github.com/isaiah-duhart/zMessage-sockets"
           h3="zMessage"
-          p="Instant Messaging Application"
+          p="Command Line Messaging"
         />
         <ProjectCard
           src={flavourHubLogo}
@@ -23,10 +23,10 @@ function Projects() {
           p="Recipe Sharing Website"
         />
         <ProjectCard
-          src={streamwest}
-          link="https://github.com/isaiah-duhart/streamwest"
-          h3="Streamwest"
-          p="Coming Soon!"
+          src={ticTacToeLogo}
+          link="https://github.com/isaiah-duhart/tic-tac-toe"
+          h3="Tic-Tac-Toe"
+          p="Challenge a Friend!"
         />
         <ProjectCard
           src={nbaLogo}
