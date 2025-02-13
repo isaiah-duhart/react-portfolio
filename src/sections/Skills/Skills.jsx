@@ -20,6 +20,8 @@ function Skills() {
         <hr />
         <div className={styles.skillList}>
             <SkillList skill="React" />
+            <SkillList skill="Node.JS" />
+            <SkillList skill="Spring Boot" />
         </div>
         <hr />
         <div className={styles.skillList}>
@@ -27,10 +29,8 @@ function Skills() {
             <SkillList skill="Jira" />
             <SkillList skill="Linux" />
             <SkillList skill="Ghidra" />
-            <SkillList skill="Spring boot" />
             <SkillList skill="REST API" />
             <SkillList skill="Android" />
-
         </div>
     </section>
   )
